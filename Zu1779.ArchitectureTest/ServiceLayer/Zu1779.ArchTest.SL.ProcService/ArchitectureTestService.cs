@@ -5,21 +5,27 @@
     using NLog;
     using Topshelf;
 
+    using TestGrpcLibrary;
+
     public class ArchitectureTestService : ServiceControl, ServiceCustomCommand, ServicePowerEvent, ServiceSessionChange,
         ServiceShutdown, ServiceSuspend
     {
-        private Logger log = LogManager.GetCurrentClassLogger();
+        private readonly Logger log = LogManager.GetCurrentClassLogger();
 
         #region ServiceControl
         public bool Start(HostControl hostControl)
         {
-            log.Info("Start");
+            log.Info("Starting");
+            ServiceManager.StartService();
+            log.Info("Started");
             return true;
         }
 
         public bool Stop(HostControl hostControl)
         {
-            log.Info("Stop");
+            log.Info("Stopping");
+            ServiceManager.StopService();
+            log.Info("Stopped");
             return true;
         }
         #endregion
