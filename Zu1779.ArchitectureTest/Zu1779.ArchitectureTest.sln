@@ -35,15 +35,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnoPlatform.iOS", "Temp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnoPlatform.UWP", "Temp\TestUnoPlatform\TestUnoPlatform.UWP\TestUnoPlatform.UWP.csproj", "{EFA731BC-F00C-48D9-A8BD-FA2AE9E71260}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnoPlatform.Wasm", "Temp\TestUnoPlatform\TestUnoPlatform.Wasm\TestUnoPlatform.Wasm.csproj", "{B94690FB-A3E9-4916-A04B-6CF799B4AC9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestUnoPlatform.Wasm", "Temp\TestUnoPlatform\TestUnoPlatform.Wasm\TestUnoPlatform.Wasm.csproj", "{B94690FB-A3E9-4916-A04B-6CF799B4AC9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnoPlatform.macOS", "Temp\TestUnoPlatform\TestUnoPlatform.macOS\TestUnoPlatform.macOS.csproj", "{C948327A-A6CA-47C1-AB13-57270D776967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnoPlatform.Skia.Wpf.Host", "Temp\TestUnoPlatform\TestUnoPlatform.Skia.Wpf.Host\TestUnoPlatform.Skia.Wpf.Host.csproj", "{3608ECD8-4B1D-446F-BF14-F33E324F6644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestUnoPlatform.Skia.Wpf.Host", "Temp\TestUnoPlatform\TestUnoPlatform.Skia.Wpf.Host\TestUnoPlatform.Skia.Wpf.Host.csproj", "{3608ECD8-4B1D-446F-BF14-F33E324F6644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnoPlatform.Skia.Wpf", "Temp\TestUnoPlatform\TestUnoPlatform.Skia.Wpf\TestUnoPlatform.Skia.Wpf.csproj", "{5178F1D8-F22B-4FEE-8DA1-1358D93358EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestUnoPlatform.Skia.Wpf", "Temp\TestUnoPlatform\TestUnoPlatform.Skia.Wpf\TestUnoPlatform.Skia.Wpf.csproj", "{5178F1D8-F22B-4FEE-8DA1-1358D93358EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnoPlatform.Skia.Gtk", "Temp\TestUnoPlatform\TestUnoPlatform.Skia.Gtk\TestUnoPlatform.Skia.Gtk.csproj", "{C7670D61-3347-47B5-AE4D-ED5307B25E50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestUnoPlatform.Skia.Gtk", "Temp\TestUnoPlatform\TestUnoPlatform.Skia.Gtk\TestUnoPlatform.Skia.Gtk.csproj", "{C7670D61-3347-47B5-AE4D-ED5307B25E50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C170649-7811-448D-A4B3-08AFBF21125D}"
+	ProjectSection(SolutionItems) = preProject
+		Techincal notes.txt = Techincal notes.txt
+		ToDo.txt = ToDo.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zu1779.ArchTest.SL.Api2BL", "ServiceLayer\Zu1779.ArchTest.SL.Api2BL\Zu1779.ArchTest.SL.Api2BL.csproj", "{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -939,6 +947,62 @@ Global
 		{C7670D61-3347-47B5-AE4D-ED5307B25E50}.Release|x64.Build.0 = Release|Any CPU
 		{C7670D61-3347-47B5-AE4D-ED5307B25E50}.Release|x86.ActiveCfg = Release|Any CPU
 		{C7670D61-3347-47B5-AE4D-ED5307B25E50}.Release|x86.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|ARM.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|ARM.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|ARM64.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|ARM64.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|x64.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|x64.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Ad-Hoc|x86.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|ARM.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|ARM64.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|ARM64.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|x64.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|x64.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.AppStore|x86.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|x64.Build.0 = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Debug|x86.Build.0 = Debug|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|ARM.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|ARM64.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|iPhone.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|x64.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|x64.Build.0 = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|x86.ActiveCfg = Release|Any CPU
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -961,6 +1025,7 @@ Global
 		{3608ECD8-4B1D-446F-BF14-F33E324F6644} = {D87F2B42-FB94-4834-B51C-819EFEC3A664}
 		{5178F1D8-F22B-4FEE-8DA1-1358D93358EA} = {D87F2B42-FB94-4834-B51C-819EFEC3A664}
 		{C7670D61-3347-47B5-AE4D-ED5307B25E50} = {D87F2B42-FB94-4834-B51C-819EFEC3A664}
+		{23BD8F91-F20F-42EF-BA1B-B8C88EB69C7E} = {9B50502D-D259-4320-9F32-CED2B2469E13}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DAD3C94-22EE-4967-B370-2D3F2AB895EC}

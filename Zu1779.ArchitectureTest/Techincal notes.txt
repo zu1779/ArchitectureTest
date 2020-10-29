@@ -1,0 +1,7 @@
+*** gRPC
+
+- Generate server and client stub from proto
+Template command:
+{path to protoc executable (usually inside nuget packages)}\protoc.exe --proto_path=protos --grpc_out=protos --csharp_out=protos --csharp_opt=file_extension=.g.cs {proto file} --plugin={path to csharp plugin executable (usually inside nuget packages)}\grpc_csharp_plugin.exe
+Example command:
+C:\Users\zu1779\.nuget\packages\grpc.tools\1.19.0\tools\windows_x64\protoc.exe --proto_path=protos --grpc_out=protos --csharp_out=protos --csharp_opt=file_extension=.g.cs Accounts.proto --plugin=protoc-gen-grpc=C:\Users\zu1779\.nuget\packages\grpc.tools\1.19.0\tools\windows_x64\grpc_csharp_plugin.exe

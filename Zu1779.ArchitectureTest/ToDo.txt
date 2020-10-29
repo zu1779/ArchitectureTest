@@ -1,0 +1,6 @@
+- Dependency Injection
+- Logging
+- Dynamic configurable logging via interception
+- Microservices
+- Endpoint autodiscovery
+- FOR ALL: automated testing
