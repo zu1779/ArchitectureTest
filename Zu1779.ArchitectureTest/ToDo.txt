@@ -1,6 +1,12 @@
 - Dependency Injection
 - Logging
 - Dynamic configurable logging via interception
+- Health management (maybe with dynamic configuration)
+- Performance management (maybe with dynamic configuration)
+
 - Microservices
 - Endpoint autodiscovery
 - FOR ALL: automated testing
+- swashbuckle
+
+- Generazione tramite connected services di visual studio per api e grpc
