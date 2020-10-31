@@ -3,14 +3,49 @@
     using System;
     using System.Threading.Tasks;
 
+    using LightInject;
+    using NLog;
+
     using Zu1779.ArchTest.CL.TestGrpcClient;
 
     class Program
     {
-        static async Task Main(string[] args)
+        static async Task Main()
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Testing gRPC");
+            var log = LogManager.GetCurrentClassLogger();
+            try
+            {
+                log.Debug($"static Main");
+
+                var container = new ServiceContainer();
+                container.Register<ILogger>(c => LogManager.GetCurrentClassLogger());
+                container.Register<Program>(new PerContainerLifetime());
+
+                var program = container.GetInstance<Program>();
+                await program.Execute();
+            }
+            catch (Exception ex)
+            {
+                log.Error(ex, "Exception in static Main");
+                throw;
+            }
+            finally
+            {
+                log.Debug($"shutdown before void Main exit");
+                LogManager.Shutdown();
+            }
+        }
+
+        private readonly ILogger log;
+        public Program(ILogger log)
+        {
+            this.log = log;
+        }
+
+        public async Task Execute()
+        {
+            log.Info("Hello World!");
+            log.Info("Testing gRPC");
 
             var client = new TestGrpcClient();
             string empId = "1";

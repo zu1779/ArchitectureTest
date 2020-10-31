@@ -10,7 +10,7 @@
         {
             server = new Server
             {
-                Services = { GrpcTestService.BindService(new GrpcTestServiceConnections()) },
+                Services = { GrpcTestService.BindService(new GrpcTestServiceEndpoint()) },
                 Ports = { new ServerPort("localhost", 1779, ServerCredentials.Insecure) },
             };
         }

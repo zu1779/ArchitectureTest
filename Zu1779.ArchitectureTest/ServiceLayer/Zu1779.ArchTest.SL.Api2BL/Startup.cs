@@ -26,7 +26,7 @@ namespace Zu1779.ArchTest.SL.Api2BL
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers(c => c.EnableEndpointRouting = false).AddControllersAsServices();
+            services.AddControllers().AddControllersAsServices();
         }
 
         public void ConfigureContainer(IServiceContainer container)
@@ -34,7 +34,6 @@ namespace Zu1779.ArchTest.SL.Api2BL
             container.RegisterFrom<CompositionRoot>();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

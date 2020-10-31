@@ -7,7 +7,7 @@
 
     using Zu1779.ArchTest.BL.MainEngine;
 
-    public class GrpcTestServiceConnections : GrpcTestService.GrpcTestServiceBase
+    public class GrpcTestServiceEndpoint : GrpcTestService.GrpcTestServiceBase
     {
         public override Task<EmployeeName> GetEmployeeName(EmployeeNameRequest request, ServerCallContext context)
         {
