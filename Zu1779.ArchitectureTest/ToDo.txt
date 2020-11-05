@@ -1,6 +1,6 @@
 - Dependency Injection
 - Logging
-- Dynamic configurable logging via interception
+- Dynamic configurable logging via interception (consider filter and nested calls)
 - Health management (maybe with dynamic configuration)
 - Performance management (maybe with dynamic configuration)
 

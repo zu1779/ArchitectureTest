@@ -18,8 +18,7 @@
                 log.Debug($"static Main");
 
                 var container = new ServiceContainer();
-                container.Register<ILogger>(c => LogManager.GetCurrentClassLogger());
-                container.Register<Program>(new PerContainerLifetime());
+                container.RegisterFrom<CompositionRoot>();
 
                 var program = container.GetInstance<Program>();
                 await program.Execute();
@@ -44,8 +43,10 @@
 
         public async Task Execute()
         {
-            log.Info("Hello World!");
-            log.Info("Testing gRPC");
+            log.Info("Execute BEGIN");
+
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("Testing gRPC");
 
             var client = new TestGrpcClient();
             string empId = "1";
@@ -56,6 +57,8 @@
             Console.WriteLine("gRPC tested");
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
+
+            log.Info("Execute END");
         }
     }
 }
