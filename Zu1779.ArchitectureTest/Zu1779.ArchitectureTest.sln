@@ -53,18 +53,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zu1779.ArchTest.SL.Api2BL", "ServiceLayer\Zu1779.ArchTest.SL.Api2BL\Zu1779.ArchTest.SL.Api2BL.csproj", "{0C781F68-1FA9-42FA-B15E-255758B4FD0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zu1779.Lightinject.InterceptionConfiguration", "Zu1779.Lightinject.InterceptionConfiguration\Zu1779.Lightinject.InterceptionConfiguration.csproj", "{A5AE6DD8-5E55-4573-AF9A-1AB967B14914}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zu1779.Lightinject.InterceptionConfiguration", "Zu1779.Lightinject.InterceptionConfiguration\Zu1779.Lightinject.InterceptionConfiguration.csproj", "{A5AE6DD8-5E55-4573-AF9A-1AB967B14914}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Temp\TestUnoPlatform\TestUnoPlatform.Shared\TestUnoPlatform.Shared.projitems*{5178f1d8-f22b-4fee-8da1-1358d93358ea}*SharedItemsImports = 5
-		Temp\TestUnoPlatform\TestUnoPlatform.Shared\TestUnoPlatform.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
-		Temp\TestUnoPlatform\TestUnoPlatform.Shared\TestUnoPlatform.Shared.projitems*{9cc43aa8-fbc7-4066-afed-d6e491d141e0}*SharedItemsImports = 4
-		Temp\TestUnoPlatform\TestUnoPlatform.Shared\TestUnoPlatform.Shared.projitems*{b94690fb-a3e9-4916-a04b-6cf799b4ac9c}*SharedItemsImports = 5
-		Temp\TestUnoPlatform\TestUnoPlatform.Shared\TestUnoPlatform.Shared.projitems*{c948327a-a6ca-47c1-ab13-57270d776967}*SharedItemsImports = 4
-		Temp\TestUnoPlatform\TestUnoPlatform.Shared\TestUnoPlatform.Shared.projitems*{d60d926a-0338-40e6-bb82-751edaff9daa}*SharedItemsImports = 4
-		Temp\TestUnoPlatform\TestUnoPlatform.Shared\TestUnoPlatform.Shared.projitems*{efa731bc-f00c-48d9-a8bd-fa2ae9e71260}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|ARM = Ad-Hoc|ARM
